@@ -58,5 +58,9 @@ namespace Exercise_Linked_List_D
                 Console.Write(LAST.rollNumber + " " + LAST.name + "\n");
             }
         }
+        public void firstNode()
+        {
+
+        }
     }  
 }
