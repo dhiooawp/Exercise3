@@ -26,7 +26,8 @@ namespace Exercise_Linked_List_D
         {
             for (previous = current = LAST.next; current != LAST; previous = current, current = current.next)
             {
-
+                if (rollNo == current.rollNumber)
+                    return (true);/*returns true if the node is found*/
             }
         }
     }
