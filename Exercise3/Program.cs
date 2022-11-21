@@ -88,7 +88,11 @@ namespace Exercise_Linked_List_D
                             break;
                         case '2':
                             {
-                                if
+                                if (obj.listEmpty() == true)
+                                {
+                                    Console.WriteLine("\nList is empty");
+                                    break;
+                                }
                             }
                     }
 
