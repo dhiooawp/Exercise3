@@ -88,7 +88,7 @@ namespace Exercise_Linked_List_D
                             break;
                         case '2':
                             {
-
+                                if
                             }
                     }
 
