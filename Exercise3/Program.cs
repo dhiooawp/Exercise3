@@ -60,7 +60,10 @@ namespace Exercise_Linked_List_D
         }
         public void firstNode()
         {
-
+            if (listEmpty())
+                Console.WriteLine("\nList is empty");
+            else
+                Console.WriteLine("\nThe first record in the list is:\n\n" + LAST.next.rollNumber + " " + LAST.next.name);
         }
     }  
 }
