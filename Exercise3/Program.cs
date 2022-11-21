@@ -68,7 +68,32 @@ namespace Exercise_Linked_List_D
         static void Main(string[] args)
         {
             CircularList obj = new CircularList();
-            while
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("\nMenu");
+                    Console.WriteLine("1. View all the records in the list");
+                    Console.WriteLine("2. Search for a record in the list");
+                    Console.WriteLine("3. Display the first record in the list");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("\nEnter your choice (1-4): ");
+                    char ch = Convert.ToChar(Console.ReadLine());
+                    switch (ch)
+                    {
+                        case '1':
+                            {
+                                obj.traverse;
+                            }
+                            break;
+                        case '2':
+                            {
+
+                            }
+                    }
+
+                }
+            }
         }
     }  
 }
