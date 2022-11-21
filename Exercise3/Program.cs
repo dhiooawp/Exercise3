@@ -36,7 +36,10 @@ namespace Exercise_Linked_List_D
         }
         public bool listEmpty()
         {
-           
+            if (LAST == null)
+                return true;
+            else
+                return false;
         }
     }  
 }
