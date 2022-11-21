@@ -34,7 +34,9 @@ namespace Exercise_Linked_List_D
             else
                 return false;/*returns false if the node is not found*/
         }
-    }
-        
-        
+        public bool listEmpty()
+        {
+           
+        }
+    }  
 }
